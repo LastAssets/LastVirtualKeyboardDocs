@@ -1,0 +1,39 @@
+:root {
+
+}
+
+#logo{
+    height: 55px;
+}
+.navbar {
+    background-color: rgb(204, 227, 222);
+}
+    .navbar .btn {
+        background-color: rgb(204, 227, 222);
+        color: #647574;
+    }
+
+    .navbar .search,
+    .navbar .search .form-control {
+        background-color: rgb(180, 208, 202);
+        color: #647574;
+        border: #647574;
+        --bs-secondary-color: #647574;
+    }
+
+    .navbar .dropdown-menu {
+        background-color: rgb(180, 208, 202);
+        color: #647574;
+        --bs-dropdown-link-color: #647574;
+    }
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #647574;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    font-weight: bold;
+}
