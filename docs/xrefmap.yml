@@ -516,6 +516,12 @@ references:
   commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.AdditiveKeyIcon.UseTextColor
   fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.AdditiveKeyIcon.UseTextColor
   nameWithType: VirtualKeyboardLayout.AdditiveKeyIcon.UseTextColor
+- uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.ForceRecreateKeyboard
+  name: ForceRecreateKeyboard
+  href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_ForceRecreateKeyboard
+  commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.ForceRecreateKeyboard
+  fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.ForceRecreateKeyboard
+  nameWithType: VirtualKeyboardLayout.ForceRecreateKeyboard
 - uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.GetRandomKey
   name: GetRandomKey()
   href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_GetRandomKey
@@ -529,6 +535,12 @@ references:
   isSpec: "True"
   fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.GetRandomKey
   nameWithType: VirtualKeyboardLayout.GetRandomKey
+- uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyInstances
+  name: KeyInstances
+  href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_KeyInstances
+  commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyInstances
+  fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyInstances
+  nameWithType: VirtualKeyboardLayout.KeyInstances
 - uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardItem
   name: VirtualKeyboardLayout.KeyboardItem
   href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardItem.html
@@ -607,6 +619,12 @@ references:
   commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.Font
   fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.Font
   nameWithType: VirtualKeyboardLayout.KeyboardLayout.Font
+- uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.FontStyle
+  name: FontStyle
+  href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_KeyboardLayout_FontStyle
+  commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.FontStyle
+  fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.FontStyle
+  nameWithType: VirtualKeyboardLayout.KeyboardLayout.FontStyle
 - uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.HighlightTransitionTime
   name: HighlightTransitionTime
   href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_KeyboardLayout_HighlightTransitionTime
@@ -673,6 +691,12 @@ references:
   commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.NavigationWrapAroundHorizontal
   fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.NavigationWrapAroundHorizontal
   nameWithType: VirtualKeyboardLayout.KeyboardLayout.NavigationWrapAroundHorizontal
+- uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.NavigationWrapAroundVertical
+  name: NavigationWrapAroundVertical
+  href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_KeyboardLayout_NavigationWrapAroundVertical
+  commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.NavigationWrapAroundVertical
+  fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.NavigationWrapAroundVertical
+  nameWithType: VirtualKeyboardLayout.KeyboardLayout.NavigationWrapAroundVertical
 - uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.PressAnimationTime
   name: PressAnimationTime
   href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_KeyboardLayout_PressAnimationTime
@@ -752,6 +776,19 @@ references:
   isSpec: "True"
   fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.Move
   nameWithType: VirtualKeyboardLayout.Move
+- uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.RectTransform
+  name: RectTransform
+  href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_RectTransform
+  commentId: P:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.RectTransform
+  fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.RectTransform
+  nameWithType: VirtualKeyboardLayout.RectTransform
+- uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.RectTransform*
+  name: RectTransform
+  href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_RectTransform_
+  commentId: Overload:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.RectTransform
+  isSpec: "True"
+  fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.RectTransform
+  nameWithType: VirtualKeyboardLayout.RectTransform
 - uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.ToggleKeysOfType(System.Boolean,System.String)
   name: ToggleKeysOfType(bool, string)
   href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_ToggleKeysOfType_System_Boolean_System_String_
@@ -815,12 +852,6 @@ references:
   commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.VirtualHotkey.Key
   fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.VirtualHotkey.Key
   nameWithType: VirtualKeyboardLayout.VirtualHotkey.Key
-- uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout._keyInstances
-  name: _keyInstances
-  href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.html#LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout__keyInstances
-  commentId: F:LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout._keyInstances
-  fullName: LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout._keyInstances
-  nameWithType: VirtualKeyboardLayout._keyInstances
 - uid: LastAssets.LastVirtualKeyboard.VirtualKeyboardUtilities
   name: VirtualKeyboardUtilities
   href: api/LastAssets.LastVirtualKeyboard.VirtualKeyboardUtilities.html

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Adding the components | Last Assets </title>
+      <title>Recommendations | Last Assets </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Adding the components | Last Assets ">
+      <meta name="title" content="Recommendations | Last Assets ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -86,8 +86,15 @@
         </div>
 
         <article data-uid="">
-<h1 id="adding-the-components">Adding the components</h1>
+<h1 id="recommendations">Recommendations</h1>
 
+<blockquote>
+<p>For the best usage example, I <strong>HIGHLY</strong> recommend you import the examples folder and study the provided demo. This
+provides an example script for connecting unity's new input system to the keyboard instance. This includes an example
+for custom key logic based on the string, as well as shortcuts to perform actions without interacting directly with a
+key.</p>
+</blockquote>
+<h1 id="adding-the-components">Adding the components</h1>
 <blockquote>
 <p>First step is to add the <a href="../api/LastAssets.LastVirtualKeyboard.VirtualKeyboard.html">Keyboard</a> component to a gameobject.
 This should automatically add the <a href="../api/LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.html">KeyboardLayout</a>
@@ -99,13 +106,25 @@ dependency, but if it doesn't, add this component to the object as well.</p>
 This should give you options for colors, icons, etc. While you're here, populate the <strong>Keys</strong> array to start
 filling out your keyboard.</p>
 </blockquote>
+<h1 id="errors">Errors</h1>
+<blockquote>
+<p>You may see errors in console after adding the script to an object. This is due to dependencies that need to be assigned
+such as the audiosource and font. As you start filling out the references, these object reference errors should go away.</p>
+</blockquote>
 <h1 id="using-the-keyboard">Using the keyboard</h1>
 <blockquote>
-<p>Depending on which input system you're using, you can access the keyboard with these calls:</p>
-<blockquote>
-<p>Open(), Close(), IsOpen(), ReadKey()</p>
+<p>Depending on which input system you're using, you can interact with the virtual keyboard by creating a reference to the
+VirtualKeyboard and utilizing these functions:</p>
+<p>Show() - This method enables the keyboard object for use on screen</p>
+<p>Hide() - This method disables/hides the keyboard object</p>
+<p>IsOpen() - Returns true or false if the keyboard is open or closed</p>
+<p>ReadKey() - &quot;Presses&quot; whatever key is highlighted under the virtual keyboard and returns the string</p>
 </blockquote>
-</blockquote>
+<div class="NOTE">
+<h5>Note</h5>
+<p>For an implementation example, import the <strong>Examples</strong> folder, and open the <strong>Demo_NewInputSystem</strong> Scene. This should show
+you all the information you need to get your own keyboard going.</p>
+</div>
 
 </article>
 

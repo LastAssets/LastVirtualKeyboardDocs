@@ -103,7 +103,8 @@ Class VirtualKeyboardLayout
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(RectTransform))]
+    <pre><code class="lang-csharp hljs">[ExecuteInEditMode]
+[RequireComponent(typeof(RectTransform))]
 public class VirtualKeyboardLayout : MonoBehaviour</code></pre>
   </div>
 
@@ -532,17 +533,80 @@ public class VirtualKeyboardLayout : MonoBehaviour</code></pre>
 
 
 
+  <h3 id="LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_ForceRecreateKeyboard" data-uid="LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.ForceRecreateKeyboard">
+  ForceRecreateKeyboard
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used to force the layout system to recreate the keyboard</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public bool ForceRecreateKeyboard</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_KeyInstances" data-uid="LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.KeyInstances">
+  KeyInstances
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Debugging&quot;)]
+public List&lt;VirtualKey&gt; KeyInstances</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="LastAssets.LastVirtualKeyboard.VirtualKey.html">VirtualKey</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <h3 id="LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_Layout" data-uid="LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.Layout">
   Layout
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Layout reference</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VirtualKeyboardLayout.KeyboardLayout Layout</code></pre>
+    <pre><code class="lang-csharp hljs">[Header(&quot;Keyboard&quot;)]
+public VirtualKeyboardLayout.KeyboardLayout Layout</code></pre>
   </div>
 
 
@@ -562,28 +626,34 @@ public class VirtualKeyboardLayout : MonoBehaviour</code></pre>
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
 
-  <h3 id="LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout__keyInstances" data-uid="LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout._keyInstances">
-  _keyInstances
+
+  <a id="LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_RectTransform_" data-uid="LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.RectTransform*"></a>
+
+  <h3 id="LastAssets_LastVirtualKeyboard_VirtualKeyboardLayout_RectTransform" data-uid="LastAssets.LastVirtualKeyboard.VirtualKeyboardLayout.RectTransform">
+  RectTransform
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A pointer to the rect transform of this transform object</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;VirtualKey&gt; _keyInstances</code></pre>
+    <pre><code class="lang-csharp hljs">public RectTransform RectTransform { get; }</code></pre>
   </div>
 
 
 
 
-  <h4 class="section">Field Value</h4>
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="LastAssets.LastVirtualKeyboard.VirtualKey.html">VirtualKey</a>&gt;</dt>
+    <dt><span class="xref">RectTransform</span></dt>
     <dd></dd>
   </dl>
-
 
 
 
