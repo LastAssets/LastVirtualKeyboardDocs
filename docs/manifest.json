@@ -195,6 +195,36 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/ImportPackage.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ImportPackage.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PackageManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/PackageManager.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SearchForPackage.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SearchForPackage.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/Thumbs.db",
       "output": {
         "resource": {
