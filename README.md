@@ -2,8 +2,8 @@
 
 ###
 
-<p align="center">The documentation is hosted on a github pages website, and to access it you simply visit the page at<br><br>https://lastassets.github.io/LastVirtualKeyboardDocs/<br><br>If you have any issues or feature requests, feel free to contact me! \n 
-lastassetscontact@gmail.com \n
-https://discord.gg/jcuhesB939</p>
+<p align="center">The documentation is hosted on a github pages website, and to access it you simply visit the page at<br><br>https://lastassets.github.io/LastVirtualKeyboardDocs/<br><br>If you have any issues or feature requests, feel free to contact me! <br> 
+<strong>lastassetscontact@gmail.com <br>
+https://discord.gg/jcuhesB939<strong></p>
 
 ###
